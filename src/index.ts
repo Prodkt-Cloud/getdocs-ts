@@ -9,7 +9,7 @@ import {
   Signature, IndexType, IndexedAccessType, TypeElement, TemplateLiteralType,
   Node, SyntaxKind, UnionOrIntersectionTypeNode, MappedTypeNode, TypeOperatorNode, TypeLiteralNode,
   Declaration, NamedDeclaration, TypeParameterDeclaration, ParameterDeclaration, EnumDeclaration,
-  VariableDeclaration, ConstructorDeclaration, TypeAliasDeclaration, TypeReferenceNode
+  VariableDeclaration, ConstructorDeclaration, TypeAliasDeclaration, TypeReferenceNode, SubstitutionType
 } from "typescript"
 
 import {resolve, dirname, relative, sep} from "path"
@@ -239,6 +239,10 @@ class Context {
               typeArgs: [this.getType(root.checkType), this.getType(root.extendsType),
                          this.getType(this.tc.getTypeFromTypeNode(root.node.trueType)),
                          this.getType(this.tc.getTypeFromTypeNode(root.node.falseType))]}
+    }
+
+    if (type.flags & TypeFlags.Substitution) {
+      return this.getType((type as SubstitutionType).constraint);
     }
 
     if (type.flags & TypeFlags.Object) {
