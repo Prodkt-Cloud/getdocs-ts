@@ -1,1 +1,1 @@
-export type X = {[x: number]: number}
+export type X = { [x: number]: number };

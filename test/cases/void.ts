@@ -1,1 +1,1 @@
-export const x: () => void = () => {}
+export const x: () => void = () => {};

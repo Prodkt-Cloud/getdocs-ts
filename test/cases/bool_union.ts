@@ -1,1 +1,1 @@
-export declare const f: (g: () => boolean | null) => void
+export declare const f: (g: () => boolean | null) => void;

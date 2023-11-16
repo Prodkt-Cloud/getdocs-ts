@@ -1,1 +1,1 @@
-export let x: readonly number[] = []
+export const x: readonly number[] = [];

@@ -1,1 +1,1 @@
-export type B = Omit<RegExp, 'foo'>
+export type B = Omit<RegExp, 'foo'>;

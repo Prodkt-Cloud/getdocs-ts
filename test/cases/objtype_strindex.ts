@@ -1,6 +1,6 @@
 export type Foo = {
   /// Doc1
-  a: number,
+  a: number;
   /// Doc2
-  [other: string]: any
-}
+  [other: string]: any;
+};

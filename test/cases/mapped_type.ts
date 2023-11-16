@@ -1,1 +1,1 @@
-export type T<A, B> = {[K in keyof A]: B}
+export type T<A, B> = { [K in keyof A]: B };

@@ -1,13 +1,13 @@
-type U = string | number
+type U = string | number;
 
-export const a: U = 2
+export const a: U = 2;
 
-type S<T> = {x: T}
+type S<T> = { x: T };
 
-export const b: S<number> = {x: 1}
+export const b: S<number> = { x: 1 };
 
 class Foo {
-  x = 1
+  x = 1;
 }
 
-export const c: Foo = new Foo
+export const c: Foo = new Foo();

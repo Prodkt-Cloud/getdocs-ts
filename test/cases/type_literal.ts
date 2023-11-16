@@ -1,2 +1,6 @@
-export function findColumn(string: string, n: number, col: number, tabSize: number): {offset: number, leftOver: number} {
-}
+export function findColumn(
+  string: string,
+  n: number,
+  col: number,
+  tabSize: number
+): { offset: number; leftOver: number } {}

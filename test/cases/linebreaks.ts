@@ -9,4 +9,4 @@
 ///
 ///     Line 1
 ///     Line 2
-export const x = 1
+export const x = 1;

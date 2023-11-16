@@ -1,4 +1,4 @@
 export interface I {
-  a: number,
-  b?: string
+  a: number;
+  b?: string;
 }

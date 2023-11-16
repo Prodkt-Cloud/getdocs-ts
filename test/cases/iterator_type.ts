@@ -1,1 +1,1 @@
-export const foo: Iterator<number> = null as any
+export const foo: Iterator<number> = null as any;

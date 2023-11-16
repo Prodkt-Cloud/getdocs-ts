@@ -1,3 +1,3 @@
 export class X {
-  abstract firstLineLength(): number
+  abstract firstLineLength(): number;
 }

@@ -1,1 +1,1 @@
-export const moveCharLeft: RegExp = /x/
+export const moveCharLeft: RegExp = /x/;

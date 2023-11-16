@@ -1,3 +1,3 @@
 export interface Callable {
-  (): any
+  (): any;
 }
