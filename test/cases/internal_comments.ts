@@ -1,8 +1,7 @@
 export class X {
   /// @internal
   /// comment
-  f() {
-  }
+  f() {}
 
   /// actual comment
   g() {}

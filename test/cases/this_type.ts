@@ -1,3 +1,3 @@
 export interface TextIterator extends Iterator<string> {
-  next(skip?: number): this
+  next(skip?: number): this;
 }

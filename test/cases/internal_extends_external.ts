@@ -1,9 +1,9 @@
 export interface A {
-  a: number
+  a: number;
 }
 
 interface B extends A {
-  b: number
+  b: number;
 }
 
-export declare const x: B
+export declare const x: B;

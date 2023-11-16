@@ -1,5 +1,5 @@
-export let x: number | null | {ok: boolean} | undefined = 2
+export const x: number | null | { ok: boolean } | undefined = 2;
 
-export type U = boolean | undefined
+export type U = boolean | undefined;
 
-export let y: U = true
+export const y: U = true;

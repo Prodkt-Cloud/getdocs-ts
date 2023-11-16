@@ -1,3 +1,3 @@
 export class X {
-  static y = 0
+  static y = 0;
 }

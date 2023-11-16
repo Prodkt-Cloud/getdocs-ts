@@ -1,5 +1,5 @@
 function f<T>(a: T) {
-  return () => a
+  return () => a;
 }
 
-export const x = f(1)
+export const x = f(1);

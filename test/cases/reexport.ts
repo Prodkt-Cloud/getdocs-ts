@@ -1,7 +1,7 @@
 class Foo {
-  x!: number
+  x!: number;
 }
 
-export {Foo}
+export { Foo };
 
-export {Type} from "typescript"
+export { Type } from 'typescript';

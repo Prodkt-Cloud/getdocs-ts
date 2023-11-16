@@ -1,2 +1,1 @@
-export class ChangeDesc extends Error {
-}
+export class ChangeDesc extends Error {}

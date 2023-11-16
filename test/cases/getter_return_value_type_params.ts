@@ -1,4 +1,3 @@
 export class X {
-  get desc(): Iterator<boolean> {
-  }
+  get desc(): Iterator<boolean> {}
 }

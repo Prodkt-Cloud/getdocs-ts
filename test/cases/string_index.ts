@@ -1,6 +1,6 @@
 export interface I {
   /// Doc for a
-  a: number,
+  a: number;
   /// Doc for other
-  [other: string]: any
+  [other: string]: any;
 }
