@@ -1,5 +1,5 @@
 {
-  "name": "@prevwong/getdocs-ts",
+  "name": "@olioweb/getdocs-ts",
   "version": "0.1.5",
   "description": "Extract builddocs-style info from typescript sources",
   "main": "src/index.js",
